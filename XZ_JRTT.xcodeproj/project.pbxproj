@@ -16,6 +16,10 @@
 		FF31644323ABA63F00E31AE7 /* XZ_JRTTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF31644223ABA63F00E31AE7 /* XZ_JRTTUITests.swift */; };
 		FF31645123ABA92200E31AE7 /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF31645023ABA92200E31AE7 /* MyTabBarController.swift */; };
 		FF31645323ABA93B00E31AE7 /* MyNavigartionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF31645223ABA93B00E31AE7 /* MyNavigartionController.swift */; };
+		FF31645523ABB62900E31AE7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF31645423ABB62900E31AE7 /* HomeViewController.swift */; };
+		FF31645723ABB63000E31AE7 /* HuoshanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF31645623ABB63000E31AE7 /* HuoshanViewController.swift */; };
+		FF31645923ABB64500E31AE7 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF31645823ABB64500E31AE7 /* VideoViewController.swift */; };
+		FF31645B23ABB65400E31AE7 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF31645A23ABB65400E31AE7 /* MineViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		FF31644423ABA63F00E31AE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF31645023ABA92200E31AE7 /* MyTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBarController.swift; sourceTree = "<group>"; };
 		FF31645223ABA93B00E31AE7 /* MyNavigartionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigartionController.swift; sourceTree = "<group>"; };
+		FF31645423ABB62900E31AE7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FF31645623ABB63000E31AE7 /* HuoshanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuoshanViewController.swift; sourceTree = "<group>"; };
+		FF31645823ABB64500E31AE7 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		FF31645A23ABB65400E31AE7 /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +117,10 @@
 				FF31642E23ABA63E00E31AE7 /* Info.plist */,
 				FF31645023ABA92200E31AE7 /* MyTabBarController.swift */,
 				FF31645223ABA93B00E31AE7 /* MyNavigartionController.swift */,
+				FF31645423ABB62900E31AE7 /* HomeViewController.swift */,
+				FF31645623ABB63000E31AE7 /* HuoshanViewController.swift */,
+				FF31645823ABB64500E31AE7 /* VideoViewController.swift */,
+				FF31645A23ABB65400E31AE7 /* MineViewController.swift */,
 			);
 			path = XZ_JRTT;
 			sourceTree = "<group>";
@@ -263,9 +275,13 @@
 			files = (
 				FF31642523ABA63A00E31AE7 /* ViewController.swift in Sources */,
 				FF31645123ABA92200E31AE7 /* MyTabBarController.swift in Sources */,
+				FF31645B23ABB65400E31AE7 /* MineViewController.swift in Sources */,
+				FF31645923ABB64500E31AE7 /* VideoViewController.swift in Sources */,
 				FF31645323ABA93B00E31AE7 /* MyNavigartionController.swift in Sources */,
+				FF31645723ABB63000E31AE7 /* HuoshanViewController.swift in Sources */,
 				FF31642123ABA63A00E31AE7 /* AppDelegate.swift in Sources */,
 				FF31642323ABA63A00E31AE7 /* SceneDelegate.swift in Sources */,
+				FF31645523ABB62900E31AE7 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
