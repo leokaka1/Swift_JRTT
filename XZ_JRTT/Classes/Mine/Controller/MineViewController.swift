@@ -14,6 +14,7 @@ class MineViewController: UITableViewController {
         super.viewDidLoad()
 
         tableView.tableFooterView = UIView()
+        tableView.backgroundColor = UIColor.globalBackgroundColor()
     }
 
 }
@@ -26,12 +27,12 @@ extension MineViewController {
     
     override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let headerView = UIView.init(frame: CGRect(x: 0, y: 0, width: screenWidth, height: screenHeight))
-        headerView.backgroundColor = UIColor(r: 247, g: 248, b: 249)
+        headerView.backgroundColor = UIColor.globalBackgroundColor()
         return headerView
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 4
+        return 2
     }
     
     override func numberOfSections(in tableView: UITableView) -> Int {
