@@ -18,12 +18,13 @@
 		FFB7C7F423AE12E000E3438C /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB7C7DC23AE12E000E3438C /* VideoViewController.swift */; };
 		FFB7C7F523AE12E000E3438C /* HuoshanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB7C7E123AE12E000E3438C /* HuoshanViewController.swift */; };
 		FFB7C7F623AE12E000E3438C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB7C7E523AE12E000E3438C /* AppDelegate.swift */; };
-		FFB7C7F723AE12E000E3438C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FFB7C7E623AE12E000E3438C /* Info.plist */; };
 		FFB7C7F823AE12E000E3438C /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB7C7E923AE12E000E3438C /* MineViewController.swift */; };
 		FFB7C7F923AE12E000E3438C /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB7C7EE23AE12E000E3438C /* MyTabBarController.swift */; };
 		FFB7C7FA23AE12E000E3438C /* MyNavigartionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB7C7EF23AE12E000E3438C /* MyNavigartionController.swift */; };
 		FFB7C7FB23AE12E000E3438C /* MyTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB7C7F223AE12E000E3438C /* MyTabbar.swift */; };
 		FFB7C7FD23AE13DA00E3438C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB7C7FC23AE13DA00E3438C /* SceneDelegate.swift */; };
+		FFB7C80023AE280100E3438C /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB7C7FF23AE280100E3438C /* Const.swift */; };
+		FFB7C80523AE295500E3438C /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB7C80423AE295500E3438C /* UIColor+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,9 @@
 		FFB7C7EF23AE12E000E3438C /* MyNavigartionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyNavigartionController.swift; sourceTree = "<group>"; };
 		FFB7C7F223AE12E000E3438C /* MyTabbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabbar.swift; sourceTree = "<group>"; };
 		FFB7C7FC23AE13DA00E3438C /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FFB7C7FE23AE1EAB00E3438C /* XZ_JRTT.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XZ_JRTT.entitlements; sourceTree = "<group>"; };
+		FFB7C7FF23AE280100E3438C /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		FFB7C80423AE295500E3438C /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +154,7 @@
 		FF31641F23ABA63A00E31AE7 /* XZ_JRTT */ = {
 			isa = PBXGroup;
 			children = (
+				FFB7C7FE23AE1EAB00E3438C /* XZ_JRTT.entitlements */,
 				FFB7C7D423AE12E000E3438C /* Classes */,
 				FF31642923ABA63E00E31AE7 /* Assets.xcassets */,
 				FF31642B23ABA63E00E31AE7 /* LaunchScreen.storyboard */,
@@ -290,6 +295,7 @@
 				FFB7C7E523AE12E000E3438C /* AppDelegate.swift */,
 				FFB7C7FC23AE13DA00E3438C /* SceneDelegate.swift */,
 				FFB7C7E623AE12E000E3438C /* Info.plist */,
+				FFB7C7FF23AE280100E3438C /* Const.swift */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -329,6 +335,7 @@
 		FFB7C7EC23AE12E000E3438C /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				FFB7C80123AE28CF00E3438C /* Extension */,
 				FFB7C7ED23AE12E000E3438C /* Controller */,
 				FFB7C7F023AE12E000E3438C /* Model */,
 				FFB7C7F123AE12E000E3438C /* View */,
@@ -359,6 +366,15 @@
 			);
 			path = View;
 			sourceTree = "<group>";
+		};
+		FFB7C80123AE28CF00E3438C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FFB7C80423AE295500E3438C /* UIColor+Extension.swift */,
+			);
+			name = Extension;
+			path = XZ_JRTT/Classes/Home/Extension;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -469,7 +485,6 @@
 			files = (
 				FF31642D23ABA63E00E31AE7 /* LaunchScreen.storyboard in Resources */,
 				FF31642A23ABA63E00E31AE7 /* Assets.xcassets in Resources */,
-				FFB7C7F723AE12E000E3438C /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -566,12 +581,14 @@
 				FFB7C7F623AE12E000E3438C /* AppDelegate.swift in Sources */,
 				FFB7C7FA23AE12E000E3438C /* MyNavigartionController.swift in Sources */,
 				FFB7C7FD23AE13DA00E3438C /* SceneDelegate.swift in Sources */,
+				FFB7C80523AE295500E3438C /* UIColor+Extension.swift in Sources */,
 				FFB7C7F423AE12E000E3438C /* VideoViewController.swift in Sources */,
 				FFB7C7FB23AE12E000E3438C /* MyTabbar.swift in Sources */,
 				FFB7C7F323AE12E000E3438C /* HomeViewController.swift in Sources */,
 				FFB7C7F523AE12E000E3438C /* HuoshanViewController.swift in Sources */,
 				FFB7C7F823AE12E000E3438C /* MineViewController.swift in Sources */,
 				FFB7C7F923AE12E000E3438C /* MyTabBarController.swift in Sources */,
+				FFB7C80023AE280100E3438C /* Const.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -737,8 +754,9 @@
 			baseConfigurationReference = 07656A01D52C3F87F30159FD /* Pods-XZ_JRTT.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = XZ_JRTT/XZ_JRTT.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JZ6RY3FHQH;
+				DEVELOPMENT_TEAM = B77FC7F67H;
 				INFOPLIST_FILE = "$(SRCROOT)/XZ_JRTT/Classes/Others/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -756,8 +774,9 @@
 			baseConfigurationReference = 23E82AC9878EDAC0FB57A4FB /* Pods-XZ_JRTT.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = XZ_JRTT/XZ_JRTT.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JZ6RY3FHQH;
+				DEVELOPMENT_TEAM = B77FC7F67H;
 				INFOPLIST_FILE = "$(SRCROOT)/XZ_JRTT/Classes/Others/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
